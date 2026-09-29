@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>我的個人自我介紹首頁</title>
+</head>
+<body>
+
+    <header>
+        <h1>我的個人網頁</h1>
+        <nav>
+            <a href="index.html">首頁</a>
+            <a href="about.html">關於我</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>自我介紹</h2>
+            <p>你好！我是資管系的同學。這是我在網頁前端開發課程中製作的第一個個人網頁。</p>
+        </section>
+
+        <section>
+            <h2>我的個人照片</h2>
+            <!-- 滿足：一張正確 alt 的圖片 -->
+            <img src="images/profile.jpg" alt="我的個人大頭照" width="200">
+        </section>
+
+        <section>
+            <h2>興趣與技能清單</h2>
+            <!-- 滿足：一份興趣或技能清單 -->
+            <ul>
+                <li>網頁前端開發 (HTML / CSS)</li>
+                <li>聽音樂與看電影</li>
+                <li>打網遊與打籃球</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>本週課表項目</h2>
+            <!-- 滿足：一個包含至少三列資料的表格 -->
+            <table border="1">
+                <tr>
+                    <th>時間</th>
+                    <th>科目名稱</th>
+                </tr>
+                <tr>
+                    <td>星期一 09:00</td>
+                    <td>微積分</td>
+                </tr>
+                <tr>
+                    <td>星期二 13:00</td>
+                    <td>網頁前端開發</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>外部連結推薦</h2>
+            <!-- 滿足：一個外部連結 -->
+            <p>歡迎造訪：<a href="https://github.com" target="_blank">GitHub 官方網站</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 臨時密碼</p>
+    </footer>
+
+</body>
+</html>
